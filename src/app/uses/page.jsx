@@ -25,85 +25,52 @@ function Tool({ title, href, children }) {
 
 export const metadata = {
   title: 'Uses',
-  description: 'Software I use, gadgets I love, and other things I recommend.',
+  description: 'My Toolkit: Tools That Power My Workflow.',
 }
 
 export default function Uses() {
   return (
     <SimpleLayout
-      title="Software I use, gadgets I love, and other things I recommend."
-      intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+      title="My Toolkit: Tools That Power My Workflow."
+      intro="Explore the tools and products that power my work and creativity. Each plays a vital role in streamlining my workflow and enhancing productivity. From hardware to software, these are the essential components of my toolkit."
     >
       <div className="space-y-20">
         <ToolsSection title="Workstation">
-          <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-            I was using an Intel-based 16” MacBook Pro prior to this and the
-            difference is night and day. I’ve never heard the fans turn on a
-            single time, even under the incredibly heavy loads I put it through
-            with our various launch simulations.
+          <Tool title="AMD Ryzen 7 3700X / 32GB RAM / NVIDIA GeForce RTX 2060">
+            Despite being a few years old, this machine still crushes anything I throw at it. From handling demanding applications to tackling intensive tasks, it proves its worth time and time again. A powerhouse that continues to deliver.
           </Tool>
-          <Tool title="Apple Pro Display XDR (Standard Glass)">
-            The only display on the market if you want something HiDPI and
-            bigger than 27”. When you’re working at planetary scale, every pixel
-            you can get counts.
+          <Tool title="2 x 27 inch SR350 Full HD Monitor With Bezel-Less Display">
+          With sharp visuals and a sleek, bezel-less design, these provide a seamless experience. Perfect for multitasking, they excel in both performance and clarity, enhancing productivity and entertainment alike.
           </Tool>
-          <Tool title="IBM Model M SSK Industrial Keyboard">
-            They don’t make keyboards the way they used to. I buy these any time
-            I see them go up for sale and keep them in storage in case I need
-            parts or need to retire my main.
+          <Tool title="Logitech K780 Keyboard / M720 Triathlon Mouse">
+          Ergonomically crafted and highly dependable, these seamlessly integrate into my setup. They offer precision, comfort, and efficiency, making daily tasks effortless and improving overall productivity.
           </Tool>
-          <Tool title="Apple Magic Trackpad">
-            Something about all the gestures makes me feel like a wizard with
-            special powers. I really like feeling like a wizard with special
-            powers.
+          <Tool title="Beats Studio Pro">
+          Delivering exceptional sound quality with rich tones and deep bass, these are perfect for work, relaxation, or creative projects. Comfortable for extended use, they elevate my listening experience and fit seamlessly into my professional and personal setup.
           </Tool>
-          <Tool title="Herman Miller Aeron Chair">
-            If I’m going to slouch in the worst ergonomic position imaginable
-            all day, I might as well do it in an expensive chair.
+          <Tool title="Boulies Master Chair">
+          Built with ergonomic precision, this chair provides exceptional comfort and support. Its sleek design and adjustable features ensure it integrates seamlessly into my workspace, enhancing both productivity and overall well-being.
           </Tool>
         </ToolsSection>
-        <ToolsSection title="Development tools">
-          <Tool title="Sublime Text 4">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+        <ToolsSection title="Development Tools">
+          <Tool title="Visual Studio Code">
+          An essential part of my workflow, this versatile code editor provides an intuitive interface and extensive customisation options. With its powerful features and seamless integrations, it enhances productivity and makes tackling complex projects more efficient. An indispensable tool in my setup.
           </Tool>
-          <Tool title="iTerm2">
-            I’m honestly not even sure what features I get with this that aren’t
-            just part of the macOS Terminal but it’s what I use.
+          <Tool title="Vercel">
+          A powerful platform for modern web development, this tool streamlines the process of building, deploying, and scaling web applications. With seamless integrations and a focus on performance, it enhances productivity and ensures a smooth development workflow. An essential resource in my toolkit.
           </Tool>
-          <Tool title="TablePlus">
-            Great software for working with databases. Has saved me from
-            building about a thousand admin interfaces for my various projects
-            over the years.
+          <Tool title="Tailwind CSS">
+          I use Tailwind CSS for its efficiency and flexibility, allowing me to quickly build custom, responsive designs without writing extensive CSS. It’s an essential tool for creating modern and polished web projects.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Design">
-          <Tool title="Figma">
-            We started using Figma as just a design tool but now it’s become our
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
+          <Tool title="Balsamiq">
+          I use Balsamiq to quickly create wireframes and mockups for my projects. Its intuitive interface helps me visualise ideas and plan layouts effectively, streamlining the design process and ensuring clarity in my workflows.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Productivity">
-          <Tool title="Alfred">
-            It’s not the newest kid on the block but it’s still the fastest. The
-            Sublime Text of the application launcher world.
-          </Tool>
-          <Tool title="Reflect">
-            Using a daily notes system instead of trying to keep things
-            organized by topics has been super powerful for me. And with
-            Reflect, it’s still easy for me to keep all of that stuff
-            discoverable by topic even though all of my writing happens in the
-            daily note.
-          </Tool>
-          <Tool title="SavvyCal">
-            Great tool for scheduling meetings while protecting my calendar and
-            making sure I still have lots of time for deep work during the week.
-          </Tool>
-          <Tool title="Focus">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
+          <Tool title="Microsoft Planner">
+          I use Microsoft Planner to stay organised and manage tasks efficiently. Its intuitive interface helps me track progress, prioritise work, and collaborate seamlessly, making it an integral part of my productivity toolkit.
           </Tool>
         </ToolsSection>
       </div>
